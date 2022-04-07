@@ -352,6 +352,9 @@ footer li a img {
         background-image: no-repeat;
         background-size: cover;
     }
+    .product-heading{
+        margin-left: -2%;
+    }
     .model-image{
         width: 100%;
         height: 100%;
@@ -382,10 +385,10 @@ footer li a img {
        
     }
     .product-heading{
-        margin-left: 2%;
+        margin-left: -2%;
     }
     .product-details{
-        margin-left: -20%;
+        margin-left: -3%;
     }
     .footer {
         width: 100vw;
