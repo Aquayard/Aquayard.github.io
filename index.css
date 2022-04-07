@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+
+}
+body {
+     min-height: 100vh;
+}
+.title {
+    font-family: "Montserrat", "sans-serif";
+    color: #edf0f1;
+
+}
+/* header start */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+/* company heading header-end*/
+.logo {
+    cursor: pointer;
+}
+/* cover image */
+.cover {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    padding-top: -2rem ;
+    background-image: url("./images/waterglass/largescreenwaterglass.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+}
+
+/* one line description */
+.description {
+    margin-top: 2rem;
+    color: #edf0f1;
+    font-family: "Montserrat", "sans-serif";
+    margin-left: 5%;
+}
+ /* product section  start*/
+.product {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 60vw;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 2%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+/* product heading */
+.product-heading{
+    margin-left:1rem;
+}
+/* product-details */
+.product-details{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+    line-height: 1.5;
+}
+/* contact us for price */
+.price{
+    margin-top: 2rem;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+}
+/* image-model  end */
+.model-image{
+    width: 100%;
+    height: 100%;
+}
+/* About-us start */
+.about-us{
+    padding:5%;
+}
+/* About-us Heading*/
+.about-us h2{
+  color: white;  
+}
+/* About-us description end */
+.about-us p{
+    color: #999;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+/* contact us */
+.contact-us{
+    padding: 5%;
+    margin-top: -8%;
+}
+/* contact us heading */
+.contact-us-heading {
+    color: white;
+}
+/* contact us p */
+.contact-us-p{
+    color: #999;
+    font-family: "Montserrat", "sans-serif";
+    padding-left: 1%;
+    padding-top: 1%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+/* contact-us-num */
+.contact-us-num{
+    color: white;
+    
+}
+/* services  start */
+.services{
+    padding: 5%;
+    margin-top: -8%;
+}
+/* services heading */
+.services h2{
+    color: white;
+}
+/* service number */
+.service-number{
+    color: white;
+}
+/* services description end */
+.services p{
+    color: #999;
+    font-family: "Montserrat", "sans-serif";
+    font-size: .94rem;
+    line-height: 1.5;
+}
+/* footer start */
+.footer{
+    background-color: #161517;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* social unordered list */
+.social-ul{
+    background-color:#161517;
+    display: flex;
+    flex-direction: row;  
+    flex-direction: wrap;
+}
+/* social lists */
+footer li{
+    margin: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+/* social lists links */
+footer li a{
+    background-color: #161517;
+}
+/* copyright line */
+footer p{
+    color: white;
+    background-color: #161517;
+}
+/* social images footer-end */
+footer li a img {
+    background-color: #161517;
+    border-color: #161517;
+}
+ /* MEDIA-2501 */
+@media only screen and (min-width: 2501px){
+    .title{
+        font-size: 2.5rem;
+    }
+    .description, .price{
+        font-size: 2.7rem;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+    .price{
+        margin-left: 23%;
+    }
+    .about-us h2, .contact-us, .services h2{
+        font-size: 3rem;
+    }
+    .about-us p, .contact-us-p, .services p{
+        font-size: 2.5rem;
+    }
+    .footer{
+        height: 20vh;
+    }
+    .footer li a img{
+        width: 4rem;
+    }
+    .footer p{
+        font-size:2.5rem;
+    }
+
+}
+    /* MEDIA - 2000px */
+@media only screen and (min-width: 2000px){
+    .title{
+        font-size: 2.5rem;
+    }
+    .description{
+        font-size: 2.7rem;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+    .product{
+        width: 80vw;
+        margin-left: 10%;
+    }
+    .product-heading{
+        font-size:2.7rem;
+    }
+    .product-details{
+        font-size: 2.4rem;
+    }
+    .price{
+        font-size:2.5rem;
+    }
+    .about-us h2, .contact-us, .services h2{
+        font-size: 3rem;
+    }
+    .about-us p, .contact-us-p, .services p{
+        font-size: 2.5rem;
+    }
+    .footer{
+        height: 20vh;
+    }
+    .footer li a img{
+        width: 4rem;
+    }
+    .footer p{
+        font-size:2.5rem;
+    }
+}
+     /* MEDIA 1600px */
+@media only screen and (min-width: 1600px){
+        .title{
+            font-size: 2.3rem;
+        }
+        .description{
+            font-size: 2rem;
+            margin-top: 3%;
+            margin-left: 6%;
+        }
+        .product {
+            width: 80vw;
+            margin-left: 10%;
+        }
+        .price{
+            font-size: 2rem;;
+        }
+        .about-us h2, .contact-us, .services h2{
+            font-size: 2.2rem;
+        }
+        .about-us p, .contact-us-p, .services p{
+            font-size: 2rem;
+        }
+        .footer{
+            height: 15vh;
+        }
+        .footer li a img{
+            width: 2.5rem;
+        }
+        .footer p{
+            font-size:2rem;
+        }
+    
+}
+    /* MEDIA-1341 */
+@media only screen and (min-width: 1341){
+    .description{
+        font-size: 1.5rem;
+    }
+}
+    /*MEDIA - 1340  */
+@media only screen and (max-width: 1340px){
+    .footer{
+        height: 15vh;
+    }
+}
+    /* MEDIA-1221 */
+@media only screen and (max-width: 1221px){
+    .cover{
+        background-image: url("./images/waterglass/1204waterglass.jpg")
+    }
+    .product{
+        width: 70vw;
+        margin-left: 15%;
+    }
+    .footer{
+        height: 15vh;
+    }
+}
+    /* MEDIA-950px */
+@media only screen and (max-width: 950px){
+    .product{
+        width: 80vw;
+        margin-left: 6%;
+    }
+    .footer {
+        height: 15vh;
+    }
+}  
+    /* MEDIA-850PX */
+@media only screen and (max-width: 850px){
+    .cover{
+        background-image: url("./images/waterglass/820waterglass.jpg");
+    }
+    .product{
+        width: 85vw;
+    }
+    .footer{
+        height: 15vh;
+    }
+    .price{
+        margin-left: 23%;
+    }
+
+}    
+    /* MEDIA-800PX */
+@media only screen and (max-width: 800px) {
+    .cover{
+        width: 100vw;
+        height: 80vh;
+        padding-top: -2rem ;
+        background-image: url("./images/waterglass/waterglass.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .price{
+        margin-left: 24%;
+    }
+}
+    /* MEDIA-500PX */
+@media only screen and (max-width: 500px){
+    .cover{
+        width: 100vw;
+        height: 50vh;
+        padding-top: -2rem;
+        background-image: url("./images/waterglass/412waterglass.jpg");
+        background-image: no-repeat;
+        background-size: cover;
+    }
+    .model-image{
+        width: 100%;
+        height: 100%;
+        margin-right:10%;
+
+    }
+    .footer{
+        width: 100vw;
+        height: 15vh;
+    }
+    .price{
+        margin-left: 18%;
+    }
+}
+    /* MEDIA-399PX */
+@media only screen and (max-width: 399px){
+    .cover{
+        width: 100vw;
+        height: 50vh;
+        padding-top: -2rem;
+        background-image: url("./images/waterglass/390waterglass.jpg");
+        background-image: no-repeat;
+        background-size: cover;
+    }
+    .model-image{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .product-heading{
+        margin-left: 2%;
+    }
+    .product-details{
+        margin-left: -20%;
+    }
+    .footer {
+        width: 100vw;
+        height: 15vh;
+    }
+}
+    /* MEDIA-300PX */
+@media only screen and (max-width: 300px){
+    .product{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .model-image{
+        width: 65%;
+    }
+    .product-heading{
+        font-size: .6rem;
+        margin-left: -2%;
+    }
+    .product-details {
+        font-size: .7rem;
+        margin-left: -25%;
+    }
+    .price{
+        font-size:.7rem;
+        margin-left: -1%;
+    }
+    .contact-us-heading, .services h2{
+        font-size: 1.2rem;
+    }
+    .footer li a img{
+        width: 1.1rem;
+    }
+}
